@@ -1,0 +1,29 @@
+/* CSS written by Rebecca Mosqueda */
+
+/* GLOBAL STYLES (MOBILE FIRST) */
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightgray;
+    margin:.5rem;
+    padding:.5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+    grid-template-columns: 1fr 1fr;
+    background-color: darkgray;
+}
+}
+@media screen and (min-width: 900px) {
+    body {
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+}
+}
